@@ -1,0 +1,9 @@
+# data
+data/
+*.csv
+
+# jupyter
+.ipynb_checkpoints/
+
+# env
+venv/
