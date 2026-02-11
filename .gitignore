@@ -1,6 +1,7 @@
 # data
 data/
 *.csv
+*.parquet
 
 # jupyter
 .ipynb_checkpoints/
