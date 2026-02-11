@@ -8,3 +8,7 @@ data/
 
 # env
 venv/
+
+# Model files
+models/
+*.pkl
