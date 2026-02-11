@@ -6,8 +6,8 @@ from sklearn.model_selection import RandomizedSearchCV
 import joblib
 
 
-DATA_DIR = "../data/split"
-MODEL_DIR = "../models"
+DATA_DIR = "data/split"
+MODEL_DIR = "models"
 RANDOM_STATE = 42
 
 

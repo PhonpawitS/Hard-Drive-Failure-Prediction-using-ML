@@ -4,8 +4,8 @@ import pandas as pd
 
 
 USE_SAMPLE = False
-DATA_PATH = "../data/raw/data_Q3_2025/*.csv"
-OUTPUT_PATH = "../data/processed/feature_engineered.parquet"
+DATA_PATH = "data/raw/data_Q3_2025/*.csv"
+OUTPUT_PATH = "data/processed/feature_engineered.parquet"
 
 
 def load_data():

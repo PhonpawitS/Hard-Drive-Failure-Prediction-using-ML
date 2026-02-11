@@ -3,8 +3,8 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 
 
-INPUT_PATH = "../data/processed/feature_engineered.parquet"
-OUTPUT_DIR = "../data/split"
+INPUT_PATH = "data/processed/feature_engineered.parquet"
+OUTPUT_DIR = "data/split"
 RANDOM_STATE = 42
 TEST_SIZE = 0.2
 

@@ -5,8 +5,8 @@ from sklearn.ensemble import RandomForestClassifier
 import joblib
 
 
-DATA_DIR = "../data/split"
-MODEL_DIR = "../models"
+DATA_DIR = "data/split"
+MODEL_DIR = "models"
 RANDOM_STATE = 42
 
 

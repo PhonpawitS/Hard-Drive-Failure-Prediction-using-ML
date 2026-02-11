@@ -19,8 +19,8 @@ from sklearn.metrics import (
 
 def load_test_data():
     print("\n[1] Loading test dataset...")
-    X_test = pd.read_parquet("../data/split/X_test.parquet")
-    y_test = pd.read_parquet("../data/split/y_test.parquet").values.ravel()
+    X_test = pd.read_parquet("data/split/X_test.parquet")
+    y_test = pd.read_parquet("data/split/y_test.parquet").values.ravel()
 
     print(f"X_test shape: {X_test.shape}")
     print(f"Positive rate (test): {y_test.mean():.6f}")
@@ -29,8 +29,8 @@ def load_test_data():
 
 def load_models():
     print("\n[2] Loading trained models...")
-    rf_model = joblib.load("../models/rf_model.pkl")
-    xgb_model = joblib.load("../models/xgb_model.pkl")
+    rf_model = joblib.load("models/rf_model.pkl")
+    xgb_model = joblib.load("models/xgb_model.pkl")
     print("Models loaded successfully.")
     return rf_model, xgb_model
 
